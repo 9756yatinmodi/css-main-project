@@ -1,0 +1,143 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar
+{
+    width: 100%;
+    /* background-color:whitesmoke; */
+}
+.navbarcontainer
+{
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.manu ul
+{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+li a
+{
+    text-decoration: none;
+    color: black;
+}
+.banner 
+{
+    width: 100%;
+    /* background-color: black; */
+}
+.bannercontainer 
+{
+    width: 80%;
+    height: 200px;
+    /* background-color: aqua; */
+    margin: auto;
+    padding: 20px 20px;
+    text-align: justify;
+}
+.content
+{
+    width: 100%;
+}
+.contentcontainer
+{
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    padding: 10px 20px;
+
+}
+.parent
+{
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left
+{
+    width: 60%;
+    height: 250px;
+    text-align: justify;
+    /* background-color: yellow; */
+
+}
+.right
+{
+    width: 35%;
+    height: 250px;
+    background-color: red;
+}
+.right img{
+    width: 100%;
+    height: 250px;
+}
+@media (max-width:480px)
+{
+    .navbarcontainer
+    {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .manu ul
+    {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+
+    }
+    ul li 
+    {
+        padding: 10px 0px;
+    }
+    .bannercontainer
+    {
+        padding: 10px 0px;
+        height: auto;
+    }
+    .contentcontainer
+    {
+        padding: 0px 0px;
+    }
+    .contentcontainer h2
+    {
+        padding: 10px 0px;
+    }
+    .parent
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px;
+    }
+    .left
+    {
+        width: 100%;
+        height: auto;
+        text-align: justify;
+        margin-bottom: 5%;
+        
+    }
+    .right
+    {
+        width: 100%;
+
+    }
+
+
+
+}
